@@ -1,0 +1,32 @@
+.invisible {
+    display: none;
+}
+
+.categoriesContainer {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    min-width: 150px;
+}
+
+.categories {
+    border: 2px solid #fff;
+    border-right: none;
+    padding: 10px;
+    list-style: none;
+}
+
+.categoriesItem {
+    color: #fff;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+ion-icon {
+    margin-left: 10px;
+}

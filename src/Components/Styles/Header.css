@@ -1,0 +1,12 @@
+.navbar {
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.categoriesButton {
+    color: #fff;
+    cursor: pointer;
+}
