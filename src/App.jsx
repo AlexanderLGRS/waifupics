@@ -29,17 +29,17 @@ function App() {
                             description: data.images[i].tags[0].description,
                         };
                         picsToRender.unshift(waifuInfo);
-                      }
-                      setRefresh('false')
+                    }
+                    setRefresh('false');
                 });
         }
         setArrayOfPicsToRender(picsToRender);
     }, [category]);
 
     const categorySelected = (category) => {
-      setRefresh('true')  
-      setCategory(category);
-      console.log(category);
+        setRefresh('true');
+        setCategory(category);
+        console.log(category);
     };
 
     const [categoriesVisible, setCategoriesVisible] = useState('invisible');

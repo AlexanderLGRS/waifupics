@@ -1,5 +1,13 @@
 .navbar {
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    border-bottom: 2px solid #fff;
+}
+
+.container-fluid {
+    padding: 0 30px;
 }
 
 .navbar-brand img {
@@ -9,4 +17,10 @@
 .categoriesButton {
     color: #fff;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .container-fluid {
+        padding: 0 20px;
+    }
 }

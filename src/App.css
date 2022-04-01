@@ -5,5 +5,14 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-image: linear-gradient(to left bottom, #1c0537, #2c0b4e, #3f0e66, #54117e, #6b1197);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
 }

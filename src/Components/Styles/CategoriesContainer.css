@@ -1,24 +1,24 @@
-.invisible {
-    display: none;
-}
-
 .categoriesContainer {
-    position: absolute;
+    position: fixed;
     right: 0;
     width: 50%;
+    max-width: 200px;
     min-width: 150px;
 }
 
 .categories {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     border: 2px solid #fff;
     border-right: none;
     padding: 10px;
     list-style: none;
+    background-image: linear-gradient(to right top, #1c0537, #2c0b4e, #3f0e66, #54117e, #6b1197);
 }
 
 .categoriesItem {
     color: #fff;
-    height: 40px;
+    height: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,5 +28,10 @@
 }
 
 ion-icon {
+    font-size: 20px;
     margin-left: 10px;
+}
+
+.categoriesItem:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
